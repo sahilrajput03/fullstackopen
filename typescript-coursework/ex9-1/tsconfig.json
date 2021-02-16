@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "noImplicitAny": false,// for temporary..
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "noUnusedLocals": false, // TEMPLORARILY COMMENTING THIS...
+    "noUnusedParameters": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true, //This enables the importing of express types, otherwise shows this can only be imported using allowSyntheticDefaultImports flag.
+    "declaration": true,
+  }
+}

@@ -1,0 +1,5 @@
+npm link eslint-plugin-react @typescript-eslint/eslint-plugin // This is helpful for editors eslint to work.
+nls @testing-library/jest-dom @testing-library/react @testing-library/user-event 
+nls @types/jest @types/node @types/react @types/react-dom lint react react-dom react-scripts typescript
+
+Above commands are required to work create-react-app created with typescript template.

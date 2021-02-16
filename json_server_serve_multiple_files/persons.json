@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": 1
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": 3
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": 4
+    },
+    {
+      "name": "Sahil",
+      "number": "8360267243",
+      "id": 5
+    },
+    {
+      "name": "Shamsher Singh",
+      "number": "9417162422",
+      "id": 6
+    },
+    {
+      "name": "Mohit",
+      "number": "94171-62433",
+      "id": 7
+    },
+    {
+      "name": "Rohilla",
+      "number": "5678901234",
+      "id": 8
+    }
+  ]

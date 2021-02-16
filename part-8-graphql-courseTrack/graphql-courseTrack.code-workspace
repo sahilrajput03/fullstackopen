@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "frontend-graphql-phonebook--from-part8-7-part8-9",
+      "path": "frontend-graphql-phonebook--from-part8-7-part8-9"
+    },
+    {
+      "name": "backend-graphql-phonebook--till-part8-6",
+      "path": "backend-graphql-phonebook--till-part8-6"
+    }
+  ],
+  "settings": {
+    "workbench.colorTheme": "Operator Mono Dark Theme"
+  }
+}

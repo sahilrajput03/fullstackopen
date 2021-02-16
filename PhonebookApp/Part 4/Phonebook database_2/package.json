@@ -1,0 +1,33 @@
+{
+  "name": "phonebook-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "uibuild": "rm -rf build && cd frontEnd_ThePhonebook && npm run build --prod && cp -r build ../",
+    "deploy": " git add . && git commit -m uibuild && git push heroku master",
+    "build+Deploy": "npm run uibuild && npm run deploy",
+    "logs:prod": "heroku logs --tail"
+  },
+  "author": "Sahil Rajput",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.7",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "nodemon": "^1.19.4"
+  },
+  "commentss":{
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint .",
+    "Build,Commit,Deploy(Push)": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy"
+  }
+}

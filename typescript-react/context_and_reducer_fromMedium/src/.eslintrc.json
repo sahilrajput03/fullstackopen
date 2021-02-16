@@ -1,0 +1,14 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+        //1 means 2spaces, 2 means 4spaces, etc.
+      }
+    ],
+    "no-unused-vars": 1
+  }
+}

@@ -1,0 +1,10 @@
+#create-user
+post http://localhost:3003/api/users
+Content-Type: application/json
+ 
+{
+  "username": "drajput",
+  "password": "pp",
+  "name": "Dunno Rajput",
+  "number": 8360267243
+}

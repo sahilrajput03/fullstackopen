@@ -1,0 +1,37 @@
+# Write your query or mutationmu here
+query seeEveryonsFriendlist {
+  allPersons {
+    name
+    friendOf {
+      username
+    }
+  }
+}
+
+query facebookFeature {
+  findPerson(name: "Leevi Hellas") {
+    friendOf{
+      username
+    }
+  }
+}
+
+
+mutation SignUp {
+  createUser (username: "sahilrajput") {
+  username
+  }
+}
+
+mutation loggingIn {
+  login(username: "sahilrajput", password:"secret"){
+    value
+  }
+}
+
+mutation newPerson {
+  addPerson(name: "Vakil Chand", phone: "8360267243", city: "Dhakoli", street: "Pometerian")
+  {
+    name
+  }
+}

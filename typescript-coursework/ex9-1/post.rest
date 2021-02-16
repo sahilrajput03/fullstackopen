@@ -1,0 +1,44 @@
+###CORRECT REQUEST
+post http://localhost:3003/calculator
+Content-Type: application/json
+
+{
+  "daily_exercises": [1, 0, 2, 0, 3, 0, 2.5],
+  "target": 2.5
+}
+
+###parameters missing
+post http://localhost:3003/calculator
+Content-Type: application/json
+
+{
+  "daily_exercisessss": [1, 0, 2, 0, 3, 0, 2.5],
+  "targetTTT": 2.5
+}
+
+###malformatted parameters - 1
+post http://localhost:3003/calculator
+Content-Type: application/json
+
+{
+  "daily_exercises": ["S", 0, 2, 0, 3, 0, 2.5],
+  "target": 2.5
+}
+
+###malformatted parameters - 2
+post http://localhost:3003/calculator
+Content-Type: application/json
+
+{
+  "daily_exercises": [1, 0, 2, 0, 3, 0, 2.5, 9, 29, 23],
+  "target": 2.5
+}
+
+###malformatted parameters - 3
+post http://localhost:3003/calculator
+Content-Type: application/json
+
+{
+  "daily_exercises": [1, 0, 2, 0, 3, 0, 2.5],
+  "target": "ROHTAANG"
+}

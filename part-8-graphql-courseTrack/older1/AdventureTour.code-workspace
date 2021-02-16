@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "graphql-frontEnd",
+      "path": "graphql-frontEnd"
+    },
+    {
+      "name": "graphql-backend",
+      "path": "graphql-backend"
+    }
+  ],
+  "settings": {
+    "deno.enable": false
+  }
+}

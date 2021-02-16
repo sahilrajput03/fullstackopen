@@ -1,0 +1,20 @@
+post http://localhost:3001/api/diaries
+Content-Type: application/json
+
+{
+  "date": "2020-1-4",
+  "comment": "smoothest landing of the year!!",
+  "visibility": "awesome!!!",
+  "weather": "sunny"
+}
+
+###
+post http://localhost:3001/api/diaries
+Content-Type: application/json
+
+{
+  "date": "2020-1-4",
+  "comment": "smoothest landing of the year!!",
+  "visibility": "good",
+  "weather": "sunny"
+}

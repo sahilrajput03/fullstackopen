@@ -1,0 +1,6 @@
+FIRST METHOD (using two files - db.js and server.js)
+COMMAND TO RUN - node server.js
+//running above file will load db.js file with itself as it is linked inside it.
+
+SECOND METHOD (using single file - TheSingleFileWorkedAsIs.js)
+COMMAND TO RUN - npx json-server --port 3001 TheSingleFileWorkedAsIs.js

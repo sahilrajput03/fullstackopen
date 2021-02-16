@@ -1,0 +1,23 @@
+#create note with authorization
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJyYWpwdXQiLCJpZCI6IjVlOGM1ODk2NzI4NDgzMjBlY2I2YTAyYyIsImlhdCI6MTU4ODMxMjY0NH0.2dhGAxILN-7KpxxwcAe1_0fLIGQgXsg4euK96NUejvA
+
+{
+  "title": "Riioo is flat in mars.",
+  "likes": 2,
+  "author": "Murti Rajput",
+  "url": "www.imobia.ml"
+}
+
+# Commenting is allowed in rest files, try via Ctrl + /
+###
+post https://moccasinmiserlycommands--five-nine.repl.co/api/persons
+Content-Type: application/json
+
+{
+  "content": "Riioo is flat in mars.",
+  "number": 2234,
+  "author": "Murti Rajput",
+  "url": "www.imobia.ml"
+}

@@ -1,0 +1,8 @@
+post  http://localhost:3001/api/persons
+# post https://enigmatic-lake-45298.herokuapp.com/api/persons
+Content-Type: application/json
+
+{
+    "name": "Ramu",
+    "number": "873333324"
+}

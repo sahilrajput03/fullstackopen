@@ -1,0 +1,3 @@
+https://github.com/kamilkisiela/graphql-config/tree/legacy
+
+https://stackoverflow.com/questions/43594675/gql-or-graphql-file-types-with-node

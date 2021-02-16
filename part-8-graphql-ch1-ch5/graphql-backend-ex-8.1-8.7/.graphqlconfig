@@ -1,0 +1,13 @@
+{
+  "schemaPath": "typedefs.graphql",
+  "extensions": {
+    "endpoints": {
+      "dev": {
+        "url": "http://localhost:4001/graphql",
+        "headers": {
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNhaGlscmFqcHV0MDMiLCJpZCI6IjVlZGM5ZjlhMWMwMGY5MTY2Y2FlMDg0NyIsImlhdCI6MTU5MjIxNzE3OH0.gVtWvzRvE2Fs3VkBMRrNrmP49-ty0tXFNNAdarqJzXI"
+        }
+      }
+    }
+  }
+}
